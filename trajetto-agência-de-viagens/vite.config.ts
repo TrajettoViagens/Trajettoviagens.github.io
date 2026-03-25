@@ -6,7 +6,8 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // Removido 'base' para que o site seja servido na raiz do domínio (trajettoviagens.github.io)
+    // Como o site está na raiz de trajetto.github.io, a base deve ser '/'
+    base: '/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
