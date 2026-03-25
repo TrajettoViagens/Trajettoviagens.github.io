@@ -89,7 +89,7 @@ export default function App() {
             </a>
 
             <a
-              href="https://www.instagram.com/trajettoagencia/"
+              href="https://www.instagram.com/trajettoviagens?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-trajetto-blue-dark text-white w-full py-4 rounded-lg text-sm font-bold shadow-lg hover:bg-trajetto-blue-dark/90"
